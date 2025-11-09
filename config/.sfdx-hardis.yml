@@ -1,0 +1,6 @@
+projectName: threestone_hardis
+developmentBranch: uat
+autoCleanTypes:
+  - destructivechanges
+  - flowPositions
+  - minimizeProfiles
