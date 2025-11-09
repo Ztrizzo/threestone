@@ -36,7 +36,7 @@ $RECYCLE.BIN/
 **/.venv/
 **/venv/
 **/profiles/**
-**/.vscode/**
+.vscode/
 .cache/
 config/user/
 hardis-report/
