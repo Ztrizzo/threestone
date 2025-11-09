@@ -1,0 +1,4 @@
+mergeTargets:
+  - main
+targetUsername: threestone@krahnborn.com.uat
+instanceUrl: https://test.salesforce.com

@@ -1,0 +1,4 @@
+Date update,Lookup field name,Lookup reference field name,Missing parent External Id value,Parent ExternalId field name,Parent SObject name,Record Id,sObject name
+2025-11-09  11:34:06.142,Quickbooks_Customer__c,Quickbooks_Customer__r.Name,Krahnborn 2,Name,Quickbooks_Customer__c,001WE00000tavrMYAQ,Account
+2025-11-09  11:34:08.877,Quickbooks_Customer__c,Quickbooks_Customer__r.Name,Krahnborn 2,Name,Quickbooks_Customer__c,001WE00000tavrMYAQ,Account
+2025-11-09  11:34:09.542,Quickbooks_Customer__c,Quickbooks_Customer__r.Name,Krahnborn 2,Name,Quickbooks_Customer__c,001WE00000tavrMYAQ,Account

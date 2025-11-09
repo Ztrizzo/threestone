@@ -1,0 +1,53 @@
+{
+  "sfdxHardisLabel": "SampleData",
+  "sfdxHardisDescription": "This data script can be used to populate a sandbox with sample data upon refresh/creation",
+  "objects": [
+    {
+      "query": "SELECT createable_true, updateable_true FROM Account",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM Contact",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM Lead",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM Order",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM Opportunity",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM Quote",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT Account.Name, createable_true, updateable_true FROM Case",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true, Account__r.Name FROM Production__c",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+        {
+      "query": "SELECT createable_true, updateable_true FROM Quickbooks_Customer__c",
+      "operation": "Upsert",
+      "externalId": "Name"
+    }
+  ]
+}
+
+

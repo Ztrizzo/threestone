@@ -1,0 +1,463 @@
+{
+  "excludeIdsFromCSVFiles": false,
+  "sfdxHardisLabel": "FSL",
+  "sfdxHardisDescription": "This can be used as a data pipeline to deploy FSL data-driven configuration",
+  "objects": [
+    {
+      "query": "SELECT createable_true, updateable_true FROM OperatingHours",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM OperatingHoursHoliday",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM Location",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM AssociatedLocation",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM Address",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM WarrantyTerm",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM Skill",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ServiceTerritory",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ServiceTerritoryLocation",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ServiceResource",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ServiceTerritoryMember",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ServiceResourceSkill",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ServiceResourceCapacity",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ResourceAbsence",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ResourcePreference",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ServiceCrew",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ServiceCrewMember",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM Asset",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM AssetAccountParticipant",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM AssetContactParticipant",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM AssetAttribute",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM AssetDowntimePeriod",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM AssetRelationship",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM AssetWarranty",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM MaintenanceAsset",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM MaintenancePlan",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM MaintenanceWorkRule",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ServiceContract",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ContractLineItem",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ContractLineOutcome",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ContractLineOutcomeData",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM Entitlement",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM EntityMilestone",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM WorkType",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM WorkTypeGroup",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM WorkTypeGroupMember",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM SkillRequirement",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM WorkOrder",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM WorkOrderStatus",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM WorkOrderLineItem",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM WorkOrderLineItemStatus",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ProductRequired",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ProductConsumed",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ProductConsumedState",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ServiceAppointment",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ServiceAppointmentStatus",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM AssignedResource",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM TimeSlot",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM TimeSheet",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM TimeSheetEntry",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM Expense",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ExpenseReport",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ExpenseReportEntry",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM WorkPlan",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM WorkPlanTemplate",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM WorkPlanTemplateEntry",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM WorkPlanSelectionRule",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM WorkStep",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM WorkStepTemplate",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ReturnOrder",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ReturnOrderLineItem",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM Shipment",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ServiceReport",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ServiceReportLayout",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM DigitalSignature",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM Shift",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ShiftPattern",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ShiftPatternEntry",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ShiftTemplate",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM TravelMode",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM WorkCapacityAvailability",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM WorkCapacityLimit",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM WorkCapacityUsage",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM AttributeDefinition",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM AttributePicklist",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM AttributePicklistValue",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ApptBundleConfig",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ApptBundlePolicy",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ApptBundlePolicySvcTerr",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ApptBundleAggrPolicy",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ApptBundleAggrDurDnscale",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ApptBundlePropagatePolicy",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ApptBundleRestrictPolicy",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM ApptBundleSortPolicy",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM RecordsetFilterCriteria",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM RecordsetFilterCriteriaRule",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM RecordsetFltrCritMonitor",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM FieldServiceMobileSettings",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM MobileSettingsAssignment",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM AppExtension",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+    {
+      "query": "SELECT createable_true, updateable_true FROM FSL__Time_Dependency__c",
+      "operation": "Upsert",
+      "externalId": "Name"
+    }
+  ]
+}
+
