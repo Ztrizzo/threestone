@@ -33,12 +33,17 @@
       "externalId": "Name"
     },
     {
-      "query": "SELECT createable_true, updateable_true FROM Case",
+      "query": "SELECT Account.Name, createable_true, updateable_true FROM Case",
       "operation": "Upsert",
       "externalId": "Name"
     },
     {
-      "query": "SELECT createable_true, updateable_true FROM Production__c",
+      "query": "SELECT createable_true, updateable_true, Account__r.Name FROM Production__c",
+      "operation": "Upsert",
+      "externalId": "Name"
+    },
+        {
+      "query": "SELECT createable_true, updateable_true FROM Quickbooks_Customer__c",
       "operation": "Upsert",
       "externalId": "Name"
     }
